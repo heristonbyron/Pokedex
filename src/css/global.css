@@ -1,0 +1,17 @@
+body {
+    font-family: 'Poppins', sans-serif; /* COPIADO E COLADO PELO GOOGLE FONT */
+ }
+
+ main {
+     min-height: 100vh; /* ALTURA MÍNIMA */
+     background-color: #DADFE8; /* TROCA DE COR DE FUNDO */
+     display:flex; /* POSICIONAR NO PAI */
+     align-items:center ; /* ALINHAR AO CENTRO (LINHA)*/
+     justify-content: center; /* ALINHAR AO CENTRO (COLUNA) */
+ }
+
+ .pokedex {
+     display: flex;
+     gap: 30px; /* ESPAÇAMENTO ENTRE LINHAS */
+     padding: 30px 0 /*ESPAÇAMENTO ENTRE A BORDA E O CONTEÚDO E 0 MARGEM */
+ }
